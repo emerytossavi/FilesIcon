@@ -1,0 +1,14 @@
+<?php
+
+// L'autoloading se chargera automatiquement de charger la classe.
+require 'vendor/autoload.php'; // Assurez-vous de charger l'autoloader de Composer
+
+use Icon\GenIcon;
+
+//$icon = new GenIcon();
+//$icon->createIcon("MP3");
+
+$icon = new GenIcon();
+//$icon->createIcon("yo", 80, 110, 15, 0);
+//$icon->createIcon("ya", 80, 110, 15, ['r' => 0, 'g' => 0, 'b' => 0], ['r' => 25, 'g' => 100, 'b' => 155], ['r' => 130, 'g' => 190, 'b' => 255], 'webp');
+$icon->create();
